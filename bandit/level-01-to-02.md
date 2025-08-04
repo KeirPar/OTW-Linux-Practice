@@ -29,6 +29,6 @@ So for this level you have to use `cat ./-`, this reads the file named `-` by sp
 
 5. **Copy the password that appears:**
    ```bash
-  263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+   263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 This password will be used to log into Level 2. Remember to save it.
