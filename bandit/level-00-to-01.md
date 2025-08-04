@@ -16,4 +16,10 @@ Log into the game using SSH. The password for Level 1 is stored in a file called
 ## 💻 Steps Taken
 1. Connected to Bandit Level 0 server:  
    ```bash
-   ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+   
+   ssh bandit0@bandit.labs.overthewire.org -p 2220   
+
+   ls
+
+   cat readme
