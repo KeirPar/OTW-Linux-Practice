@@ -2,7 +2,7 @@
 # Bandit Level 1 → Level 2
 
 ## 🎯 Goal
-Read the contents of a hidden file named `-` in the home directory to find the next password.
+Read the contents of a file named `-` in the home directory to find the next password.
 
 
 ---
