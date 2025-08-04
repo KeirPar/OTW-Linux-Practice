@@ -34,5 +34,5 @@ Find the password for the next level, which is stored in a file called `spaces i
    ```bash
    263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
-This password will be used to log into Level 2. Remember to save it.
+This password will be used to log into Level 3. Remember to save it.
 
