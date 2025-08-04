@@ -35,8 +35,9 @@ Find the password for the next level, which is stored in a file called `readme` 
 **cat** outputs the text inside the file, which is the password for Level 1.  
 
 5. **Copy the password that appears:**
-   This password will be used to log into Level 1.
+   
+This password will be used to log into Level 1.
 
-**Moving forward, I won't explain logging into each level, or go over commands I have already covered (ls, cat). Make sure to save the passwords for each level somewhere safe so you can easily return to them.
+**Moving forward, I won't explain logging into each level, or go over commands I have already covered (ls, cat). Make sure to save the passwords for each level somewhere safe so you can easily return to them.**
 
    
