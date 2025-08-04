@@ -10,7 +10,7 @@ Read the contents of a file named `-` in the home directory to find the next pas
 ## 🛠️ Commands Used and What They Do
 
 - `cat`: Outputs the content of a file to the terminal. However, the file is named `-`, which confuses cat because it typically reads input from the keyboard (stdin). 
-So for this level you have to use `cat ./-`, this reads the file named `-` by specifying the path explicitly
+So for this level you have to use `cat ./-`, this reads the file named `-` by specifying the path explicitly.
 
 
 ---
