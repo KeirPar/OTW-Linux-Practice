@@ -1,27 +1,33 @@
 # OverTheWire Practice – Linux Privilege Escalation
 
-This repository documents my progress and learnings from completing the **OverTheWire wargames** (starting with Bandit and later moving to Narnia).  
-The goal is to **build a solid foundation in Linux, Bash, and privilege escalation techniques** for cybersecurity.
+This repository documents my progress through the **OverTheWire wargames**, focusing on building foundational skills in Linux system administration, command-line proficiency, and privilege escalation techniques for cybersecurity applications.
 
-## 🕹️ Wargames Covered
-- [Bandit](https://overthewire.org/wargames/bandit/) – basics of Linux, file permissions, and shell commands.
-- [Narnia](https://overthewire.org/wargames/narnia/) – intro to binary exploitation (coming soon).
+## Wargames Covered
 
-## 📂 Repository Structure
-- **/bandit** – Writeups for each level solved, including commands used and explanations.
-- **/scripts** – Bash scripts I wrote to automate repetitive tasks or check system configurations.
-- **/notes** – General Linux & privilege escalation notes I compiled while working through the games.
+- **[Bandit](https://overthewire.org/wargames/bandit/)** – Linux fundamentals, file permissions, and essential shell commands
+- **[Narnia](https://overthewire.org/wargames/narnia/)** – Binary exploitation and reverse engineering (coming soon)
 
-## 🚀 Why I’m Doing This
-I’m learning cybersecurity fundamentals by:
-- Practicing **file permission misconfigurations**
-- Exploring **SUID binaries & command injection**
-- Strengthening my **Bash scripting & Linux troubleshooting** skills
+## Repository Structure
 
-## 🔧 Tech Used
-- **Linux (Ubuntu VM in VirtualBox)**
-- **Bash**
-- **SSH**
-- **CTF tools like strings, grep, find, xargs**
+- **`/bandit`** – Comprehensive writeups for each level, including command explanations and methodology
+- **`/scripts`** – Custom Bash scripts for task automation and system configuration validation
+- **`/notes`** – Curated reference materials on Linux administration and privilege escalation techniques
 
----
+## Learning Objectives
+
+This practice focuses on developing core cybersecurity skills through hands-on experience with:
+
+- File permission misconfigurations and access control bypass techniques
+- SUID binary exploitation and command injection vulnerabilities  
+- Advanced Bash scripting and Linux system troubleshooting
+- Command-line tool proficiency for security analysis
+
+## Technical Environment
+
+- **Platform**: Linux (Ubuntu VM via VirtualBox)
+- **Primary Tools**: Bash, SSH, standard Unix utilities
+- **Key Commands**: `strings`, `grep`, `find`, `xargs`, `base64`, `sort`, `uniq`
+
+## Usage
+
+Each level writeup follows a consistent format covering the objective, required commands, step-by-step methodology, and relevant technical concepts. These materials serve as both learning documentation and reference guides for similar challenges.
