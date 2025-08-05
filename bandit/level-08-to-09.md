@@ -32,12 +32,14 @@ The password for the next level is stored in the file data.txt and is the only l
 This password will be used to log into Level 9. Remember to save it.
 
 ---
-## Best Method
-**The most efficient way to solve this level:**
+## Understanding Pipes
+**What the | (pipe) does:**
 ```bash
 sort data.txt | uniq -u
 ```
-**Why this works:**
-- `sort` arranges all identical lines together
-- `uniq -u` only outputs lines that appear exactly once
-- The combination efficiently finds the single unique line among thousands of duplicates
+**How piping works:**
+- The `|` symbol takes the output from the left command and sends it as input to the right command
+- `sort data.txt` outputs all lines in alphabetical order
+- This sorted output is then fed directly into `uniq -u`
+- `uniq -u` can only detect duplicates when identical lines are adjacent, which is why sorting first is essential
+- The pipe allows you to chain commands together efficiently without creating temporary files
