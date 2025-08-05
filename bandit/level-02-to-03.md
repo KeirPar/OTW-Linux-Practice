@@ -1,39 +1,32 @@
-
 # Bandit Level 2 → Level 3
-
-## 🎯 Goal
-Find the password for the next level, which is stored in a file called `--spaces in this filename--`.
-
-
+## Goal
+The password for the next level is stored in a file called "spaces in this filename" located in the home directory.
 ---
-
-## 🛠️ Commands Used and What They Do
-
-- `ls`
-
-- `cat`: Again, for this level, we use cat to read the file. However, when a file contains spaces, wrap it in quotes so that the terminal reads it as a single argument.
-         Or, alternatively, you could use backslashes to escape the spaces. in the filename 
-
-
-
+## Commands Used and What They Do
+- `ls`: Lists files and directories in the current directory.
+- `cat`: Displays the contents of a file.
+- `"filename"`: Using quotes to handle filenames with spaces.
+- `\ `: Using backslash to escape spaces in filenames.
 ---
-
-## 💻 Steps Taken
-
-1. ** Once logged in, list files in the home directory to find the `--Spaces in this filename--` file:**
-     ```bash
+## Steps Taken
+1. **Once logged in, list the contents of the current directory:**
+   ```bash
    ls
-**ls** shows that the file  exists.
-     
-4. **View the contents of the file to get the password for the next level:**
-   ```bash
-   cat ./--spaces\ in\ this\ filename--\
-   
-**cat** outputs the text inside the file, which is the password for Level 3.  
+   ```
 
-5. **Copy the password that appears:**
+2. **You should see a file named "spaces in this filename". Read its contents using quotes:**
    ```bash
-   MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+   cat "spaces in this filename"
+   ```
+
+3. **Alternatively, you can escape the spaces with backslashes:**
+   ```bash
+   cat spaces\ in\ this\ filename
+   ```
+
+4. **Copy the password that appears:**
+   ```
+   aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+   ```
 
 This password will be used to log into Level 3. Remember to save it.
-
