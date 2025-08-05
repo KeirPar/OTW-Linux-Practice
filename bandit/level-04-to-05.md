@@ -1,5 +1,6 @@
 # Bandit Level 4 → Level 5
 ## Goal
+
 The password for the next level is stored in the only human-readable file in the inhere directory.
 ---
 ## Commands Used and What They Do
