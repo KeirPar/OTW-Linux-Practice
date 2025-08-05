@@ -46,3 +46,16 @@ The password for the next level is stored in the only human-readable file in the
    ```
 
 This password will be used to log into Level 5. Remember to save it.
+
+---
+## 🚀 Pro Tip: Best Method
+**The most efficient way to solve this level:**
+```bash
+find . -type f -exec file {} + | grep "ASCII"
+```
+**Why this works better:**
+- `find . -type f` finds all files in the current directory
+- `-exec file {} +` runs the `file` command on all found files efficiently
+- `| grep "ASCII"` filters the output to only show ASCII text files (human-readable)
+- This immediately identifies the human-readable file without having to manually check each one
+- You can then directly `cat` the identified file
