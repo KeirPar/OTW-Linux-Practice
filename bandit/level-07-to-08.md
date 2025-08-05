@@ -1,7 +1,7 @@
 # Bandit Level 7 → Level 8
 ## Goal
 The password for the next level is stored in the file data.txt next to the word "millionth".
----
+
 ## Commands Used and What They Do
 - `ls`: Lists files and directories in the current directory.
 - `cat`: Displays the contents of a file.
