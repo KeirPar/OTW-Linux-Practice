@@ -1,7 +1,7 @@
 # Bandit Level 3 → Level 4
 ## Goal
 The password for the next level is stored in a hidden file in the inhere directory.
----
+
 ## Commands Used and What They Do
 - `ls`: Lists files and directories in the current directory.
 - `ls -a`: Lists all files, including hidden ones (those starting with a dot .).
