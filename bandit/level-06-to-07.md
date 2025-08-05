@@ -40,7 +40,7 @@ This password will be used to log into Level 7. Remember to save it.
 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null -exec cat {} \;
 ```
 **Why this works better:**
-- Searches the entire filesystem starting from root (/)
+- Searches the entire filesystem starting from root (/) , this is oppossed to searching just the directory you are in (.)
 - `-user bandit7` finds files owned by user bandit7
 - `-group bandit6` finds files owned by group bandit6
 - `-size 33c` finds files exactly 33 bytes in size
