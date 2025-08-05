@@ -36,11 +36,15 @@ The password for the next level is stored in a hidden file in the inhere directo
    ls -a
  **You should see something like:**
  
-    .  ..  .hidden
+          .  ..  .hidden
 
-4.  ** Read the contents of the hidden file .hidden **
+4.  **Read the contents of the hidden file .hidden**
 
         cat .hidden
+
+5.  **Copy the password that appears:**
+
+         2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 This password will be used to log into Level 4. Remember to save it.
 
