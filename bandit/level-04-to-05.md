@@ -54,7 +54,7 @@ This password will be used to log into Level 5. Remember to save it.
 find . -type f -exec file {} + | grep "ASCII"
 ```
 **Why this works better:**
-- `find . -type f` finds all files in the **current directory**; this is made clear with the period . before the commands
+- `find . -type f` finds all files in the **current directory**; this is made clear with the period (.) before the commands
 - `-exec file {} +` runs the `file` command on all found files efficiently
 - `| grep "ASCII"` filters the output to only show ASCII text files (human-readable)
 - This immediately identifies the human-readable file without having to manually check each one
