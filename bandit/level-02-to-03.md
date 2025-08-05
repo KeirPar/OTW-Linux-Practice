@@ -27,7 +27,7 @@ Find the password for the next level, which is stored in a file called `--spaces
      
 4. **View the contents of the file to get the password for the next level:**
    ```bash
-   cat ./--spaces\ in\ this\ filename\
+   cat ./--spaces\ in\ this\ filename--\
    
 **cat** outputs the text inside the file, which is the password for Level 3.  
 
