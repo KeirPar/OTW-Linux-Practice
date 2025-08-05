@@ -2,7 +2,7 @@
 ## Goal
 
 The password for the next level is stored in the only human-readable file in the inhere directory.
----
+
 ## Commands Used and What They Do
 - `ls`: Lists files and directories in the current directory.
 - `cd`: Changes directory.
