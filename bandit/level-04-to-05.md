@@ -1,15 +1,15 @@
 # Bandit Level 4 → Level 5
-##  Goal
+## Goal
 The password for the next level is stored in the only human-readable file in the inhere directory.
 ---
-##  Commands Used and What They Do
+## Commands Used and What They Do
 - `ls`: Lists files and directories in the current directory.
 - `cd`: Changes directory.
 - `file`: Determines the file type of a given file.
 - `cat`: Displays the contents of a file.
 - `ls -la`: Lists all files with detailed information, including hidden files.
 ---
-##  Steps Taken
+## Steps Taken
 1. **Once logged in, list the contents of the current directory to find inhere:**
    ```bash
    ls
@@ -48,7 +48,7 @@ The password for the next level is stored in the only human-readable file in the
 This password will be used to log into Level 5. Remember to save it.
 
 ---
-## Best Method:
+## Best Method
 **The most efficient way to solve this level:**
 ```bash
 find . -type f -exec file {} + | grep "ASCII"
