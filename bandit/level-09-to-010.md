@@ -5,7 +5,7 @@ The password for the next level is stored in the file data.txt in one of the few
 ## Commands Used and What They Do
 - `strings`: Extracts human-readable text from binary files.
 - `grep`: Searches for specific patterns in text.
-- `grep "="`: Searches for lines containing the equals sign.
+  
 ---
 ## Steps Taken
 1. **Look at the data.txt file to see its contents:**
