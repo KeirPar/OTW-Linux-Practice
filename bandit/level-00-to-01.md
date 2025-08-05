@@ -1,7 +1,7 @@
 # Bandit Level 0 → Level 1
 ## Goal
 The password for the next level is stored in a file called readme located in the home directory.
----
+
 ## Commands Used and What They Do
 - `ls`: Lists files and directories in the current directory.
 - `cat`: Displays the contents of a file.
