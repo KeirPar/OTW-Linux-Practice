@@ -20,19 +20,20 @@ Find the password for the next level, which is stored in a file called `spaces i
 
 ## 💻 Steps Taken
 
-1. ** Once logged in, list files in the home directory to find the `-` file:**
+1. ** Once logged in, list files in the home directory to find the `Spaces in this filename` file:**
      ```bash
    ls
 **ls** shows that the file  exists.
      
-4. **View the contents of the readme file to get the password for the next level:**
+4. **View the contents of the file to get the password for the next level:**
    ```bash
-   cat ./-
-**cat** outputs the text inside the file, which is the password for Level 2.  
+   cat spaces\ in\ this\ filename
+   
+**cat** outputs the text inside the file, which is the password for Level 3.  
 
 5. **Copy the password that appears:**
    ```bash
-   263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+   MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 This password will be used to log into Level 3. Remember to save it.
 
