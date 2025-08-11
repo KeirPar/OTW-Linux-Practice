@@ -34,7 +34,7 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 4. **Rename and decompress the gzip file:**
    ```bash
    mv binary_file data.gz
-   gunzip data.gz
+   gzip -d data.gz
    ```
 
 5. **Continue checking file types and decompressing:**
@@ -65,7 +65,16 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 This password will be used to log into Level 13. Remember to save it.
 
 ---
-## Understanding File Compression
+## Understanding File Types and Compression
+**How to identify file types:**
+- **Use the `file` command**: This examines the file's "magic bytes" (first few bytes) to identify the actual format
+- **Common file signatures**:
+  - Gzip files start with `1f 8b` in hex
+  - Bzip2 files start with `BZ` (or `42 5a` in hex)
+  - Tar files have specific header structures
+- **Don't trust file extensions**: A file named `data` could be any format - always check with `file`
+- **Magic bytes vs extensions**: The `file` command reads the actual file content, not just the filename
+
 **Key concepts:**
 - **Hexdump**: A representation of binary data in hexadecimal format, created with `xxd` or `hexdump`
 - **Multiple compression**: Files can be compressed multiple times with different algorithms
