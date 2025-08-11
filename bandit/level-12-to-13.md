@@ -7,8 +7,8 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 - `cp`: Copies files.
 - `xxd -r`: Reverses a hexdump back to binary data.
 - `file`: Determines file type.
-- `gunzip`: Decompresses gzip files.
-- `bunzip2`: Decompresses bzip2 files.
+- `gzip -d`: Decompresses gzip files.
+- `bzip2 -d`: Decompresses bzip2 files.
 - `tar -xf`: Extracts tar archives.
 - `mv`: Renames or moves files.
 ---
@@ -42,8 +42,8 @@ The password for the next level is stored in the file data.txt, which is a hexdu
    file data
    ```
    Keep repeating this process, renaming and using the appropriate decompression tool:
-   - For gzip: `gunzip filename.gz`
-   - For bzip2: `bunzip2 filename.bz2` 
+   - For gzip: `gzip -d filename.gz`
+   - For bzip2: `bzip2 -d filename.bz2` 
    - For tar: `tar -xf filename.tar`
 
 6. **After several iterations of decompression, you'll eventually get:**
