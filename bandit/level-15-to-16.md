@@ -19,7 +19,12 @@ The password for the next level can be retrieved by submitting the password of t
    openssl s_client -connect localhost:30001
    ```
 
-3. **After the SSL handshake completes, type the current password:**
+3. **Alternatively, you can use ncat with SSL:**
+   ```bash
+   ncat --ssl localhost 30001
+   ```
+
+4. **After the SSL connection is established, type the current password:**
    ```
    jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
    ```
