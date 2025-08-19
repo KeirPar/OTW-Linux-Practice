@@ -70,6 +70,17 @@ This level is by far the longest and most difficult level so far. There are many
    8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
    ```
 
+## Screenshots
+
+
+![Bandit Level 1 Login](screenshots/level_12.png)
+
+![Bandit Level 1 Login](screenshots/level_12_pt2.png)
+
+![Bandit Level 1 Login](screenshots/level_12_pt3.png)
+
+   
+
 This password will be used to log into Level 13. Remember to save it.
 
 ---
