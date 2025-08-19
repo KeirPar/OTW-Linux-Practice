@@ -2,7 +2,7 @@
 ## Goal
 The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. Then copy the file using cp, and rename it using mv.
 
-## Notes
+## Note
 This level is by far the longest and most difficult level so far. There are many different ways you can go about completing it.  
 
 ## Commands Used and What They Do
