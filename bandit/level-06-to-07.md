@@ -33,16 +33,3 @@ The password for the next level is stored somewhere on the server and has all of
 
 This password will be used to log into Level 7. Remember to save it.
 
----
-## Best Method
-**The most efficient way to solve this level:**
-```bash
-find / -user bandit7 -group bandit6 -size 33c 2>/dev/null -exec cat {} \;
-```
-**Why this works better:**
-- Searches the entire filesystem starting from root (/) , this is oppossed to searching just the directory you are in (.)
-- `-user bandit7` finds files owned by user bandit7
-- `-group bandit6` finds files owned by group bandit6
-- `-size 33c` finds files exactly 33 bytes in size
-- `2>/dev/null` suppresses permission denied errors
-- `-exec cat {} \;` automatically displays the content without needing a separate cat command

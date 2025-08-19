@@ -14,15 +14,15 @@ The password for the next level is stored in the file data.txt in one of the few
    ```
    You'll see it's a binary data file, not plain text.
 
-2. **Extract human-readable strings from the binary file:**
+2. **Extract human-readable strings from the binary file and look at a few lines:**
    ```bash
-   strings data.txt
+   strings data.txt | head
    ```
    This will show many lines of readable text mixed with gibberish.
 
 3. **Filter the strings to find lines with '=' characters:**
    ```bash
-   strings data.txt | grep "="
+   strings data.txt | grep "==="
    ```
 
 4. **Look through the output for lines with multiple '=' characters:**

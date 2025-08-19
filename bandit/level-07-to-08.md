@@ -4,7 +4,7 @@ The password for the next level is stored in the file data.txt next to the word 
 
 ## Commands Used and What They Do
 - `ls`: Lists files and directories in the current directory.
-- `cat`: Displays the contents of a file.
+- `head`: Displays the top contents of a file.
 - `grep`: Searches for specific patterns or words in text.
 ---
 ## Steps Taken
@@ -13,11 +13,11 @@ The password for the next level is stored in the file data.txt next to the word 
    ls
    ```
 
-2. **You should see a file named data.txt. Check its size (it's quite large):**
+2. **You should see a file named data.txt. Check the top section (otherwise it's quite large):**
    ```bash
-   cat data.txt
+   head data.txt
    ```
-   **This will show thousands of lines - not practical to read through manually.**
+   **This will show some of the lines - not practical to read through all of them manually.**
 
 3. **Use grep to find the line containing "millionth":**
    ```bash
