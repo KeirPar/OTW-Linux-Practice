@@ -22,4 +22,15 @@ The password for the next level is stored in a file called readme located in the
    ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
    ```
 
+## Screenshots
+*Initial login and directory listing:*
+
+![Bandit Level 0 Login](screenshots/level_0.png)
+
+
+*Reading the readme file and obtaining the password:*
+
+![Bandit Level 0 Solution](screenshots/level_0_pt2.png)
+
+
 This password will be used to log into Level 1. Remember to save it.
