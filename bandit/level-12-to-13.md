@@ -2,6 +2,9 @@
 ## Goal
 The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. Then copy the file using cp, and rename it using mv.
 
+##Notes
+This level is by far the longest and most difficult level so far. There are many different ways you can go about completing it.  
+
 ## Commands Used and What They Do
 - `mkdir`: Creates a directory.
 - `cp`: Copies files.
@@ -15,14 +18,17 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 ## Steps Taken
 1. **Create a working directory and copy the file:**
    ```bash
-   mkdir /tmp/level12
-   cp data.txt /tmp/level12/
-   cd /tmp/level12
+   cd /tmp
+   mktemp -d
+   cd
+   cp data.txt /tmp/tmp.xLdab2iPd2 (example temp directory)
+   cd /tmp/tmp.xLdab2iPd2
+   mv data.txt hexdump_data 
    ```
 
 2. **Convert the hexdump back to binary:**
    ```bash
-   xxd -r data.txt > binary_file
+   xxd -r hexdump_data compressed
    ```
 
 3. **Check what type of file it is:**
@@ -31,13 +37,15 @@ The password for the next level is stored in the file data.txt, which is a hexdu
    ```
    It should show it's a gzip compressed file.
 
-4. **Rename and decompress the gzip file:**
+   Or check the top part of the file and see if it has `1f 8b`, which corresponds to a gzip file. Or `425a`, this corresponds to a bzip2 file.
+
+5. **Rename and decompress the gzip file:**
    ```bash
    mv binary_file data.gz
    gzip -d data.gz
    ```
 
-5. **Continue checking file types and decompressing:**
+6. **Continue checking file types and decompressing:**
    ```bash
    file data
    ```
@@ -46,18 +54,18 @@ The password for the next level is stored in the file data.txt, which is a hexdu
    - For bzip2: `bzip2 -d filename.bz2` 
    - For tar: `tar -xf filename.tar`
 
-6. **After several iterations of decompression, you'll eventually get:**
+7. **After several iterations of decompression, you'll eventually get:**
    ```bash
    file data8
    cat data8
    ```
 
-7. **The final output should show:**
+8. **The final output should show:**
    ```
    The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
    ```
 
-8. **Copy the password:**
+9. **Copy the password:**
    ```
    8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
    ```
