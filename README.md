@@ -1,6 +1,6 @@
 # OverTheWire Practice – Linux Privilege Escalation
 
-This repository documents my progress through the **OverTheWire wargames**, focusing on building foundational skills in Linux system administration, command-line proficiency, and privilege escalation techniques for cybersecurity applications.
+This repository documents my progress through the **OverTheWire wargames**, focusing on building foundational skills in Linux system administration, command-line proficiency, and privilege escalation techniques for cybersecurity applications. Please note that the passwords displayed for each level are subject to change periodically. Please do not assume they will be the same for you.
 
 ## Wargames Covered
 
