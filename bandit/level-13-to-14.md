@@ -35,6 +35,8 @@ The password for the next level is stored in /etc/bandit_pass/bandit14 and can o
 
 ![Bandit Level 1 Login](screenshots/level_13.png)
 
+![Bandit Level 1 Login](screenshots/level_13_pt2.png)
+
 
 This password will be used to log into Level 14. Remember to save it.
 
