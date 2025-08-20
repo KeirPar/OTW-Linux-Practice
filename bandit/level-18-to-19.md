@@ -34,6 +34,11 @@ The password for the next level is stored in a file readme in the homedirectory.
    awhqfNnAbc1naukrpqDYcF95h7HoMTrC
    ```
 
+   ## Screenshots
+
+   ![Bandit Level 1 Login](screenshots/level_18.png)
+   
+
 This password will be used to log into Level 19. Remember to save it.
 
 ---
