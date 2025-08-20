@@ -62,6 +62,10 @@ The credentials for the next level can be retrieved by submitting the password o
 
    ![Bandit Level 1 Login](screenshots/level_16.png)
 
+   ![Bandit Level 1 Login](screenshots/level_16_pt2.png)
+
+   ![Bandit Level 1 Login](screenshots/level_16_pt3.png)
+
    
 
 This will log you into Level 17 directly using key-based authentication.
