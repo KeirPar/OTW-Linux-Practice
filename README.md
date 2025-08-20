@@ -10,7 +10,7 @@ This repository documents my progress through the **OverTheWire wargames**, focu
 ## Repository Structure
 
 - **`/bandit`** – Comprehensive writeups for each level, including command explanations and methodology
-- **`/scripts`** – Custom Bash scripts for task automation and system configuration validation
+- **`/narnia`** – Same style of writeups as the bandit levels
 - **`/notes`** – Curated reference materials on Linux administration and privilege escalation techniques
 
 ## Learning Objectives
