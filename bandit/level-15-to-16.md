@@ -40,6 +40,11 @@ The password for the next level can be retrieved by submitting the password of t
    JQttfApK4SeyHwDlI9SXGR50qclOAil1
    ```
 
+   ## Screenshots
+
+   ![Bandit Level 1 Login](screenshots/level_15.png)
+   
+
 This password will be used to log into Level 16. Remember to save it.
 
 ---
