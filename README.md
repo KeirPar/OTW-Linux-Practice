@@ -26,8 +26,8 @@ This practice focuses on developing core cybersecurity skills through hands-on e
 
 - **Platform**: Linux (Ubuntu VM via VirtualBox)
 - **Primary Tools**: Bash, SSH, standard Unix utilities
-- **Key Commands**: `strings`, `grep`, `find`, `xargs`, `base64`, `sort`, `uniq`
+- **Key Commands**: `ncat`,`ssh`,`strings`, `grep`, `find`, `nmap`, `base64`, `sort`, `uniq` etc
 
 ## Usage
 
-Each level writeup follows a consistent format covering the objective, required commands, step-by-step methodology, and relevant technical concepts. These materials serve as both learning documentation and reference guides for similar challenges.
+Each level write-up follows a consistent format covering the objective, required commands, step-by-step methodology, and relevant technical concepts. These materials serve as both learning documentation and reference guides for similar challenges.
