@@ -42,6 +42,12 @@ There is a setuid binary in the homedirectory that does the following: it makes 
    ```
    NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
    ```
+   
+  ## Screenshots
+
+   ![Bandit Level 1 Login](screenshots/level_20.png)
+
+   
 
 This password will be used to log into Level 21. Remember to save it.
 

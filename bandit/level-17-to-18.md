@@ -32,6 +32,11 @@ There are 2 files in the homedirectory: passwords.old and passwords.new. The pas
    hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
    ```
 
+## Screenshots
+
+   ![Bandit Level 1 Login](screenshots/level_17.png)
+
+
 This password will be used to log into Level 18. Remember to save it.
 
 ---
