@@ -35,6 +35,11 @@ To gain access to the next level, you should use the setuid binary in the homedi
    VxCazJaVykI6W36BkBU0mJTCM8rR95XT
    ```
 
+  ## Screenshots
+
+   ![Bandit Level 1 Login](screenshots/level_19.png)
+   
+
 This password will be used to log into Level 20. Remember to save it.
 
 ---
