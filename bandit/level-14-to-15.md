@@ -36,7 +36,7 @@ The password for the next level can be retrieved by submitting the password of t
    ```
 ## Screenshots
 
-   ![Bandit Level 1 Login](screenshots/level_13.png)
+   ![Bandit Level 1 Login](screenshots/level_14.png)
 
    
 
