@@ -47,6 +47,11 @@ A program is running automatically at regular intervals from cron, the time-base
    WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
    ```
 
+  ## Screenshots
+
+   ![Bandit Level 1 Login](screenshots/level_21.png)
+   
+
 This password will be used to log into Level 22. Remember to save it.
 
 ---
