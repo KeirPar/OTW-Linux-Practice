@@ -29,6 +29,14 @@ The password for the next level is stored in the file data.txt, which contains b
    6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
    ```
 
+## Screenshots
+
+
+![Bandit Level 1 Login](screenshots/level_10.png)
+
+
+   
+
 This password will be used to log into Level 11. Remember to save it.
 
 ---

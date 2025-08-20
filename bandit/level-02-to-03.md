@@ -29,4 +29,12 @@ The password for the next level is stored in a file called "--spaces in this fil
    aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
    ```
 
+## Screenshots
+
+
+![Bandit Level 1 Login](screenshots/level_2.png)
+
+
+   
+
 This password will be used to log into Level 3. Remember to save it.

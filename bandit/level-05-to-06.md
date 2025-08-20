@@ -43,6 +43,12 @@ The password for the next level is stored in a file somewhere under the inhere d
    P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
    ```
 
+   ## Screenshots
+
+
+![Bandit Level 1 Login](screenshots/level_5.png)
+
+
 This password will be used to log into Level 6. Remember to save it.
 
 ---
